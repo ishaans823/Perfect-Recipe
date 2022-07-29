@@ -1,14 +1,11 @@
 import React from "react";
-import background from "./images/background.jpeg"
-
-
+import background from "./images/back.jpg"
 
 const MainPage = () => {
-    return (
-        <div style={{ backgroundImage:`url(${background})`,backgroundRepeat:"no-repeat",backgroundSize:"contain", 
-    height:600,width:1000
-    }}>    </div>
-    );
+    return <div className="background">
+            {/* <p> Tailored Recipes with the Click of a Button</p> */}
+            <img src={background} alt="background of home page" />
+           </div>
 };
 
 export default MainPage;

@@ -1,10 +1,9 @@
 import React from "react";
-import "./login.css"
 
 const LoginPage = () => {
     return (
-        <div className="LoginForm">
-            <form action="/" >
+        <div className="login-parent">
+            <form id="login" action="/" >
                 <label for="username">Username:</label><br></br>
                 <input type="text" id="username" name="user" required></input><br></br>
                 <label for="password">Password:</label><br></br>
