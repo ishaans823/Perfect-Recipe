@@ -1,9 +1,12 @@
 import React from "react";
 
-
 const AboutPage = () => {
-    return (
-        <h1> About Perfect Recipe. </h1>
+    return (<div className="about-layout">
+                <div className="top-half">
+                    <p>  </p>
+                </div>
+            </div>
+        
     );   
 };
 

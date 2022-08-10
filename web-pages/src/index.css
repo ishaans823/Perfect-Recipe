@@ -52,11 +52,52 @@ code {
 .nav li:hover {
   background-color: tomato;
 }
-/* Background Styles */
-.background {
-  color: white;
-  font-size: larger;
+/* HomePage Styles */
+.home-background-overlay {
+  position:relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url('./pages/images/back.jpg');
+}
+.front-text {
+  position: absolute;
+  color: white;
+}
+.home-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 0.7rem 1.8rem;
+  margin: 0.3rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: normal;
+  cursor: pointer;
+}
+/* LoginPage Styles */
+.login-parent {
+  background-color: black;
+  margin: 9% auto;
+  width: 20rem;
+  padding: 2rem;
+  color: aliceblue;
+  display: inline-block;
+
+}
+.logo {
+  width: 5rem;
+}
+.submit{
+  border: none;
+  color: black;
+  padding: 0.3rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: normal;
+  cursor: pointer;
+}
+/* AboutPage Styles */
+.aboutpage {
+  background-color: #4CAF50;
 }
