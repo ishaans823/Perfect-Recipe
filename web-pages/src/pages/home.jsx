@@ -7,7 +7,7 @@ const MainPage = () => {
             <img src={background} alt="background of home page" />
             <div className="front-text">
                 <h1> Perfect <br></br> Recipes <br></br> Everytime</h1>
-                <Link to='/about'>
+                <Link to='/about' onClick={() => this.changeColor("white")}>
                     <button className="home-button"> Learn More </button> <br></br>
                 </Link>
                 <Link to='/login'>

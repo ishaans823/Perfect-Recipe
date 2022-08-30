@@ -96,8 +96,63 @@ code {
   text-decoration: none;
   font-size: normal;
   cursor: pointer;
+  margin-bottom: 1rem;
 }
 /* AboutPage Styles */
-.aboutpage {
-  background-color: #4CAF50;
+.testomonials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  width: 100%;
+  color: white;
+  flex-wrap: wrap;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+.person {
+  background-color: white;
+  padding: 1rem;
+  color: black;
+  max-width: 30%;
+}
+.testomonial-text {
+  color: white;
+  margin-top: 4rem;
+}
+.header-text {
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.food{
+  display:flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.foodImg {
+  width: 20%;
+}
+
+/* Dashboard Page Styles */
+.search-results{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+.card{
+  background: white;
+  padding: 1rem;
+  width: 20%;
+  height: auto;
 }
