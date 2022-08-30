@@ -1,13 +1,14 @@
 import React from "react";
 import { useState } from "react";
+const hidden = require("./private.json");
 
 const DashPage = () => {
     const [inputVal, setInputVal] = useState(""); //store what users put in the search bar
     const [recipesOut, setRecipesOut] = useState([]); //store recipe displays
     
     async function call() {
-        const appKey = "ceb0ee962ee0bff054dca26b4745228f";
-        const appId = "42cef613";
+        const appKey = hidden.appKey;
+        const appId = hidden.appKey;
         await fetch('https://api.edamam.com/api/recipes/v2?type=public&q=' + inputVal + '&app_id=' + appId + '&app_key=' + appKey)
         .then(response => response.json())
         .then(response => {

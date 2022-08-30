@@ -19,7 +19,7 @@ const LoginPage = () => {
         .then(function (response) {
             if(response.data.errMessage) {
                 setErrStatus(response.data.errMessage);
-            }
+            }                        
             else {
                 setErrStatus("Logged in");
             }
