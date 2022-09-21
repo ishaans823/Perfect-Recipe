@@ -1,5 +1,9 @@
 # Perfect-Recipe
-Find the perfect recipe or meal plan to fit your exact needs
+Perfect Recipe is a full stack website to help users find recipes that fit their nutrional goals
+and account for any dietary restrictions. The website includes options to filter by calories, 
+protien, carbohydrates, and fats. The site can also filter by diet and allergy. For example,
+users can select gluten-free, keto, vegetarian, nut-free, etc options using the dropdown
+menu.
 
 # Technologies
 CSS, HTML, ReactJS, SQL, Express
