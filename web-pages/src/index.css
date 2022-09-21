@@ -156,3 +156,50 @@ code {
   width: 20%;
   height: auto;
 }
+.intro {
+  color: white;
+}
+.search-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-components {
+  background: #fff;
+  width: 30%;
+  display: flex;
+}
+.search-components input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+.search-components button {
+  background: black;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  color: white;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.open {
+  position: absolute;
+  background-color: #fff;
+  margin-top: 36rem;
+  margin-left: 12rem;
+  padding: 0.4rem;
+  transition: 500ms ease;
+}
+.close {
+  display: none;
+  transition: 500ms ease;
+}
+.dropdown-icon {
+  width: 8%;
+  cursor: pointer;
+}
+.dropdown-component {
+  margin-right: 3rem;
+}

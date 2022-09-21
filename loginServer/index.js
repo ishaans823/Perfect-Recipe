@@ -2,14 +2,12 @@ const hidden = require("./private.json")
 const mysql = require("mysql2");
 const express = require("express");
 const cors = require("cors");
-const dotenv = require("dotenv");
-const bcrypt = require("bcrypt")
+const bcrypt = require("bcrypt");
+const sessions = require("express-session");
 
 const app = express();
 app.use(express.json());
 app.use(cors());
-
-dotenv.config({ path: "./.env"})
 
 const database = mysql.createConnection({
     host: hidden.host,
@@ -62,7 +60,7 @@ app.post('/login', (req, res) => {
           })
         }
         else {
-          res.send({errMessage: "User does not exsist"})
+          res.send({errMessage: "Wrong password or username"})
         }
     });
 });

@@ -33,8 +33,8 @@ const AboutPage = () => {
                     </div>
                     <div className="person">
                         <p>
-                            As a mom, perfect recipe is great for my toddlers, who are picky eaters.
-                            I can filter out all the ingredients I don't want with the click of a button.
+                            As a college student, perfect recipe is excellent at finding me recipes that
+                            are easy to make, healthy, and delicious. It is so convenient in a time crunch!
                         </p>
                     </div>
                     <div className="person">
